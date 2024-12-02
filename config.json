@@ -93,12 +93,12 @@
         "cn-lite/0": false
     },
     "cuda": {
-        "enabled": false,
-        "loader": null,
-        "nvml": true,
-        "cn/0": false,
-        "cn-lite/0": false
-    },
+    "enabled": true,
+    "loader": "libxmrig-cuda.so",
+    "nvml": true,
+    "cn/0": true,
+    "cn-lite/0": false
+},
     "log-file": null,
     "donate-level": 1,
     "donate-over-proxy": 1,
@@ -106,9 +106,9 @@
         {
             "algo": null,
             "coin": null,
-            "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
-            "pass": "x",
+            "url": "nr2221-37811.portmap.host:37811",
+            "user": "ZEPHYR2bfuCKz4kS5XpXWqPhrdUyKkLQSR6t9D7xmn1LHtto15kuvkFCHckMXaGVt8ML4VPCcNgsBN2MXcv78NPAerJ6DV2gWim3h",
+            "pass": "xgpu",
             "rig-id": null,
             "nicehash": false,
             "keepalive": false,
